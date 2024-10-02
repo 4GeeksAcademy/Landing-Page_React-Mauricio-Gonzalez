@@ -10,3 +10,111 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header and Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+/* Jumbotron (Hero Section) */
+.jumbotron {
+    padding: 4rem 2rem;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Cards */
+.card {
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-body .btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-body .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: 0.5rem;
+    }
+}
