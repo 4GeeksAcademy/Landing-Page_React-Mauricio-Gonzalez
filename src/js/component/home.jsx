@@ -4,6 +4,11 @@ import Jumbotron from "./Jumbotron";
 import Card from "./Card";
 import Footer from "./Footer";
 
+
+
+
+
+
 const Home = () => {
   return (
     <div>
@@ -12,13 +17,7 @@ const Home = () => {
         <Jumbotron />
         <div className="row">
           <div className="col-md-4">
-            <Card
-              imageUrl="https://via.placeholder.com/150"
-              title="Card 1"
-              description="This is a description for card 1."
-              buttonUrl="#"
-              buttonLabel="Go somewhere"
-            />
+            <Card imageUrl="https://via.placeholder.com/150" title="Card 1" description="This is a description for card 1." buttonUrl="#" buttonLabel="Go somewhere"/>
           </div>
           <div className="col-md-4">
             <Card
